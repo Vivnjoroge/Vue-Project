@@ -1,12 +1,13 @@
 <script setup>
-import{defineProps} from 'vue';
-defineProps({
+
+const props = defineProps({
+
     title:{
-        type: 'string',
+        type: String,
         default:'Become a Vue Dev', 
     },
     subtitle:{
-        type: 'string',
+        type: String,
         default:'Find the vue job that fits your skills and needs', 
     }
 
