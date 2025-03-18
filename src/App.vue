@@ -2,6 +2,7 @@
 import Navbar from '@/components/Navbar.vue';
 import Hero from '@/components/Hero.vue';
 import HomeCards from '@/components/HomeCards.vue';
+import JobListings from './components/JobListings.vue';
 
 
 </script>
@@ -10,6 +11,7 @@ import HomeCards from '@/components/HomeCards.vue';
   <Navbar /> 
   <Hero />
   <HomeCards />
+  <JobListings :limit="3" :showButton="true" />
  
 </template>
 <style scoped>
